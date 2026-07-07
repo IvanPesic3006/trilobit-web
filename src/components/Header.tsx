@@ -9,8 +9,9 @@ function Header() {
   return (
     <header className="header">
       <div className="header__brand">
-        <img src="/logo.png" alt="Trilobit logo" className="header__logo" />
-        <Link to="/" className="header__name">Trilobit</Link>
+        <Link to="/" className="header__logo-link">
+          <img src="/logo.png" alt="Trilobit" className="header__logo" />
+        </Link>
       </div>
 
       <div className="header__right">

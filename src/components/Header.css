@@ -13,14 +13,14 @@
   gap: 0.75rem;
 }
 
+.header__logo-link {
+  display: flex;
+  line-height: 0;
+}
+
 .header__logo {
   height: 40px;
   width: auto;
-}
-
-.header__name {
-  font-size: 1.25rem;
-  font-weight: 600;
 }
 
 .header__nav {
@@ -56,13 +56,11 @@
   font-weight: 600;
 }
 
-.header__nav a,
-.header__name {
+.header__nav a {
   color: var(--on-brand);
   text-decoration: none;
 }
 
-.header__nav a:hover,
-.header__name:hover {
+.header__nav a:hover {
   text-decoration: underline;
 }
