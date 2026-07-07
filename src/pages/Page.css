@@ -1,0 +1,45 @@
+.page {
+  padding: 2rem;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.page h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.page__intro {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.service-detail {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--brand-border);
+}
+
+.service-detail:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.service-detail h2 {
+  color: var(--brand);
+  margin-bottom: 0.75rem;
+}
+
+.service-detail p {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.service-detail ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  line-height: 1.7;
+}

@@ -1,0 +1,12 @@
+.footer {
+    padding: 1.5rem 2rem;
+    background-color: var(--brand);
+    color: var(--on-brand);
+    text-align: center;
+  }
+  
+  .footer__tagline {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }

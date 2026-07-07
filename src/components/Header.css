@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: var(--brand);
+  color: var(--on-brand);
+}
+
+.header__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.header__logo {
+  height: 40px;
+  width: auto;
+}
+
+.header__name {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.header__nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header__lang {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.header__lang-btn {
+  background: transparent;
+  border: 1px solid var(--on-brand);
+  color: var(--on-brand);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.header__lang-btn--active {
+  background: var(--on-brand);
+  color: var(--brand);
+  font-weight: 600;
+}
+
+.header__nav a,
+.header__name {
+  color: var(--on-brand);
+  text-decoration: none;
+}
+
+.header__nav a:hover,
+.header__name:hover {
+  text-decoration: underline;
+}
