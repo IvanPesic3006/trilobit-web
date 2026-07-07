@@ -6,6 +6,7 @@ function Footer() {
 
   return (
     <footer className="footer">
+      <img src="/bijelilogo.png" alt="Trilobit" className="footer__logo" />
       <p>Trilobit &copy; 2026. {t.footer.rights}</p>
       <p className="footer__tagline">{t.footer.tagline}</p>
     </footer>

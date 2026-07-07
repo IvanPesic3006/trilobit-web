@@ -4,6 +4,13 @@
     color: var(--on-brand);
     text-align: center;
   }
+
+  .footer__logo {
+    display: block;
+    height: 36px;
+    width: auto;
+    margin: 0 auto 1rem;
+  }
   
   .footer__tagline {
     margin-top: 0.5rem;
