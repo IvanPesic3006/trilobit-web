@@ -35,7 +35,7 @@
 }
 
 .contact-form button {
-  align-self: flex-start;
+  align-self: center;
   background: var(--brand);
   color: var(--on-brand);
   border: none;
