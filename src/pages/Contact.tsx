@@ -4,7 +4,10 @@ import './Contact.css'
 import './Page.css'
 
 const API_URL =
-  import.meta.env.VITE_API_URL ?? 'http://localhost:3001/api/contact'
+  import.meta.env.VITE_API_URL ??
+  (import.meta.env.PROD
+    ? 'https://trilobit-api.onrender.com/api/contact'
+    : 'http://localhost:3001/api/contact')
 
 function Contact() {
   const { language, t } = useLanguage()
